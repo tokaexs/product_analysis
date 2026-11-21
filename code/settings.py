@@ -22,7 +22,7 @@ def _load_dotenv():
 _load_dotenv()
 
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 # Final-solution settings per prompt (quoted in the Section 2 prompt sheets)
 SETTINGS = {

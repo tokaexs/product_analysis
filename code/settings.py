@@ -3,13 +3,21 @@ import os
 from pathlib import Path
 
 def _load_dotenv():
-    f = Path(__file__).resolve().parent.parent / ".env"
-    if f.exists():
-        for line in f.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if line and not line.startswith("#") and "=" in line:
-                k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+    for f in [
+        Path(__file__).resolve().parent.parent / ".env",
+        Path.cwd() / ".env",
+    ]:
+        if f.exists():
+            for line in f.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    k = k.strip()
+                    val = v.strip().strip('"').strip("'")
+                    cur = os.environ.get(k, "")
+                    if not cur or cur in ("your-key-here", "YOUR_KEY"):
+                        if val and val not in ("your-key-here", "YOUR_KEY"):
+                            os.environ[k] = val
 
 _load_dotenv()
 

@@ -9,7 +9,9 @@ import streamlit as st
 sys.path.insert(0, os.path.dirname(__file__))
 from llm import GeminiLLM, LLMError, MockLLM          # noqa: E402
 from pipeline import run_pipeline                      # noqa: E402
-from settings import MODEL, SETTINGS                   # noqa: E402
+from settings import MODEL, SETTINGS, _load_dotenv   # noqa: E402
+
+_load_dotenv()
 
 SAMPLE = os.path.join(os.path.dirname(__file__), "..", "test-data", "sample_headphones.txt")
 ICON = {"high": "🔴", "medium": "🟠", "low": "🟢"}
@@ -20,8 +22,13 @@ st.caption("Paste your customer reviews → get themes, sentiment per theme, and
 
 with st.sidebar:
     st.header("Settings")
-    key = st.text_input("Gemini API key", type="password", value=os.getenv("GEMINI_API_KEY", ""),
+    saved_key = os.getenv("GEMINI_API_KEY", "")
+    key = st.text_input("Gemini API key", type="password", value=saved_key,
                         help="Stays in memory only. Never commit keys to GitHub.")
+    if saved_key:
+        st.caption("🟢 API key loaded from .env")
+    else:
+        st.caption("🟡 No key in .env — enter one above or set in .env")
     votes = st.slider("Self-consistency votes per review", 1, 5, SETTINGS["P2"]["votes"],
                       help="Each review is classified this many times; the majority answer wins.")
     demo = st.checkbox("Offline demo mode (mock model, not real AI)", value=False)
@@ -42,7 +49,8 @@ text = st.text_area("Reviews (one per line)", key="text", height=220)
 
 if st.button("Analyse reviews", type="primary"):
     try:
-        llm = MockLLM() if demo else GeminiLLM(api_key=key or None)
+        active_key = (key or "").strip() or os.getenv("GEMINI_API_KEY", "").strip()
+        llm = MockLLM() if demo else GeminiLLM(api_key=active_key or None)
         bar = st.progress(0.0, text="Starting")
         res = run_pipeline(llm, text, context, votes=votes, workers=2,
                            progress=lambda p, m: bar.progress(min(p, 1.0), text=m))

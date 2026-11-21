@@ -15,8 +15,10 @@ class LLMError(Exception):
 class GeminiLLM:
     def __init__(self, model=None, api_key=None):
         from google import genai  # lazy import so tests run without the package
+        from settings import _load_dotenv
+        _load_dotenv()
         key = api_key or os.getenv("GEMINI_API_KEY")
-        if not key:
+        if not key or key in ("your-key-here", "YOUR_KEY"):
             raise LLMError("GEMINI_API_KEY is not set (see .env.example)")
         from google.genai import types as _t
         self.client = genai.Client(api_key=key, http_options=_t.HttpOptions(timeout=60000))

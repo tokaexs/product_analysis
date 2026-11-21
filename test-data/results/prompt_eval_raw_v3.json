@@ -1,0 +1,290 @@
+[
+ {
+  "version": "v3",
+  "id": "1",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Sound is amazing\"}, {\"theme\": \"Battery life\", \"sentiment\": \"negative\", \"evidence\": \"battery dies in 3 hours\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "1",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Sound is amazing\"}, {\"theme\": \"Battery life\", \"sentiment\": \"negative\", \"evidence\": \"the battery dies in 3 hours\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "2",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Excellent bass\"}, {\"theme\": \"Sizing/fit\", \"sentiment\": \"positive\", \"evidence\": \"very comfortable\"}, {\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Worth every rupee\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "2",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Excellent bass\"}, {\"theme\": \"Sizing/fit\", \"sentiment\": \"positive\", \"evidence\": \"very comfortable\"}, {\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Worth every rupee\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "3",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"Stopped working after two weeks\"}, {\"theme\": \"Price/value\", \"sentiment\": \"negative\", \"evidence\": \"Total waste of money\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "3",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"Stopped working after two weeks\"}, {\"theme\": \"Price/value\", \"sentiment\": \"negative\", \"evidence\": \"Total waste of money\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "4",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Shipping & delivery\", \"sentiment\": \"negative\", \"evidence\": \"Delivery was 9 days late\"}, {\"theme\": \"Packaging\", \"sentiment\": \"negative\", \"evidence\": \"the box was crushed\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "4",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Shipping & delivery\", \"sentiment\": \"negative\", \"evidence\": \"Delivery was 9 days late\"}, {\"theme\": \"Packaging\", \"sentiment\": \"negative\", \"evidence\": \"the box was crushed\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "5",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Good product\"}, {\"theme\": \"Shipping & delivery\", \"sentiment\": \"positive\", \"evidence\": \"fast delivery\"}, {\"theme\": \"Packaging\", \"sentiment\": \"positive\", \"evidence\": \"packed well\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "5",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Good product\"}, {\"theme\": \"Shipping & delivery\", \"sentiment\": \"positive\", \"evidence\": \"fast delivery\"}, {\"theme\": \"Packaging\", \"sentiment\": \"positive\", \"evidence\": \"packed well\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "6",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Quality bahut achhi hai\"}, {\"theme\": \"Packaging\", \"sentiment\": \"negative\", \"evidence\": \"packing kharab thi, box tuta hua aaya\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "6",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Quality bahut achhi hai\"}, {\"theme\": \"Packaging\", \"sentiment\": \"negative\", \"evidence\": \"packing kharab thi, box tuta hua aaya\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "7",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"2 din mein kharab ho gaya\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "7",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"2 din mein kharab ho gaya\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "8",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi-English\", \"aspects\": [{\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Paisa vasool\"}, {\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Sound badiya hai\"}, {\"theme\": \"Battery life\", \"sentiment\": \"positive\", \"evidence\": \"battery bhi mast chalti hai\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "8",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"Hindi-English\", \"aspects\": [{\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Paisa vasool\"}, {\"theme\": \"Sound quality\", \"sentiment\": \"positive\", \"evidence\": \"Sound badiya hai\"}, {\"theme\": \"Battery life\", \"sentiment\": \"positive\", \"evidence\": \"battery bhi mast chalti hai\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "9",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"broke on day two\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "9",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"it broke on day two\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "10",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Shipping & delivery\", \"sentiment\": \"negative\", \"evidence\": \"took three weeks\"}, {\"theme\": \"Customer service\", \"sentiment\": \"negative\", \"evidence\": \"'free delivery' that took three weeks. Amazing service!\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "10",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Shipping & delivery\", \"sentiment\": \"negative\", \"evidence\": \"took three weeks\"}, {\"theme\": \"Customer service\", \"sentiment\": \"negative\", \"evidence\": \"'free delivery' that took three weeks. Amazing service!\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "11",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"neutral\", \"evidence\": \"Does the job, nothing special\"}], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "11",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Product quality\", \"sentiment\": \"neutral\", \"evidence\": \"Does the job, nothing special\"}], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "12",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sizing/fit\", \"sentiment\": \"negative\", \"evidence\": \"Size runs small, ordered M but it fits like S\"}, {\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Fabric is nice though\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "12",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Sizing/fit\", \"sentiment\": \"negative\", \"evidence\": \"Size runs small\"}, {\"theme\": \"Product quality\", \"sentiment\": \"positive\", \"evidence\": \"Fabric is nice\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "13",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Customer service\", \"sentiment\": \"positive\", \"evidence\": \"Customer support replied within an hour and replaced the item\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "13",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Customer service\", \"sentiment\": \"positive\", \"evidence\": \"Customer support replied within an hour and replaced the item\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "14",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Customer service\", \"sentiment\": \"negative\", \"evidence\": \"Seller never replied to my refund request\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "14",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Customer service\", \"sentiment\": \"negative\", \"evidence\": \"Seller never replied to my refund request\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "15",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Description accuracy\", \"sentiment\": \"negative\", \"evidence\": \"Looks different from the photos, colour is much darker\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "15",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Description accuracy\", \"sentiment\": \"negative\", \"evidence\": \"Looks different from the photos, colour is much darker\"}], \"overall_sentiment\": \"negative\"}"
+ },
+ {
+  "version": "v3",
+  "id": "16",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "16",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "17",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "17",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "18",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "18",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "19",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "19",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "20",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "20",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "21",
+  "run": 0,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "21",
+  "run": 1,
+  "raw": "{\"is_valid_review\": false, \"language\": \"English\", \"aspects\": [], \"overall_sentiment\": \"neutral\"}"
+ },
+ {
+  "version": "v3",
+  "id": "22",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Not bad for the price\"}, {\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"expected the charger to be included\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "22",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Price/value\", \"sentiment\": \"positive\", \"evidence\": \"Not bad for the price\"}, {\"theme\": \"Description accuracy\", \"sentiment\": \"negative\", \"evidence\": \"I expected the charger to be included\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "23",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Packaging\", \"sentiment\": \"positive\", \"evidence\": \"Packaging was premium, gift ready\"}, {\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"Product itself feels cheap\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "23",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Packaging\", \"sentiment\": \"positive\", \"evidence\": \"Packaging was premium, gift ready\"}, {\"theme\": \"Product quality\", \"sentiment\": \"negative\", \"evidence\": \"Product itself feels cheap\"}], \"overall_sentiment\": \"mixed\"}"
+ },
+ {
+  "version": "v3",
+  "id": "24",
+  "run": 0,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Description accuracy\", \"sentiment\": \"positive\", \"evidence\": \"Works exactly as described\"}], \"overall_sentiment\": \"positive\"}"
+ },
+ {
+  "version": "v3",
+  "id": "24",
+  "run": 1,
+  "raw": "{\"is_valid_review\": true, \"language\": \"English\", \"aspects\": [{\"theme\": \"Description accuracy\", \"sentiment\": \"positive\", \"evidence\": \"Works exactly as described\"}], \"overall_sentiment\": \"positive\"}"
+ }
+]

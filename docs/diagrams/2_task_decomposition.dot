@@ -1,0 +1,9 @@
+digraph G { rankdir=TB; node [shape=box, style="rounded,filled", fillcolor="#EEF3FF", fontname="Helvetica"];
+ root [label="Turn a pile of reviews into seller actions", fillcolor="#FFF3D6"];
+ a [label="A. Prepare input\n(no LLM)"]; b [label="B. Find themes\n(P1)"]; c [label="C. Classify each review\n(P2 x3 votes)"]; d [label="D. Summarise\n(no LLM)"]; e [label="E. Recommend\n(P3)"];
+ a1 [label="remove empty / duplicates", shape=note]; a2 [label="truncate long text, cap at 60", shape=note];
+ b1 [label="seed taxonomy + rename", shape=note];
+ c1 [label="valid review? (spam, gibberish)", shape=note]; c2 [label="sentiment per theme + verbatim evidence", shape=note]; c3 [label="majority vote, agreement score", shape=note];
+ d1 [label="counts, complaint share, quotes", shape=note];
+ e1 [label="priority + concrete low-cost action", shape=note]; e2 [label="quotes checked against input", shape=note];
+ root->a; root->b; root->c; root->d; root->e; a->a1; a->a2; b->b1; c->c1; c->c2; c->c3; d->d1; e->e1; e->e2; }

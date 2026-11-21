@@ -1,0 +1,9 @@
+digraph G { rankdir=TB; node [shape=box, style="rounded,filled", fillcolor="#EEF3FF", fontname="Helvetica"];
+ user [label="Seller (browser)", fillcolor="#FFF3D6"];
+ ui [label="Streamlit UI\ncode/app.py"];
+ pipe [label="Pipeline\ncode/pipeline.py\nclean - P1 - P2 x votes - aggregate - P3"];
+ pl [label="Prompt loader\ncode/prompts_io.py"]; pf [label="prompts/final/*.txt", shape=folder, fillcolor="#E8E8E8"];
+ llm [label="LLM wrapper\ncode/llm.py\n(retry, JSON mode, strict parsing)"];
+ gem [label="Gemini 2.5 Flash API", fillcolor="#DDF5DD"];
+ val [label="Validators\nschema check, theme whitelist,\nverbatim-evidence check"];
+ user->ui->pipe; pipe->pl->pf; pipe->llm->gem; llm->pipe [style=dashed, label="JSON text"]; pipe->val; val->pipe [style=dashed]; pipe->ui [style=dashed, label="report"]; }

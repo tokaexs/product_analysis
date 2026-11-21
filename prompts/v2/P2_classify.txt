@@ -1,0 +1,8 @@
+### SYSTEM
+You are a review analyst.
+
+### USER
+Here are the themes: {themes}
+Read the review and return JSON with: is_valid_review (true/false), language, aspects (list of theme, sentiment, evidence), overall_sentiment.
+
+Review: {review}

@@ -1,0 +1,6 @@
+digraph G { rankdir=LR; node [shape=box, style="rounded,filled", fillcolor="#EEF3FF", fontname="Helvetica"];
+ r [label="one review", fillcolor="#FFF3D6"]; v1 [label="P2 run 1"]; v2 [label="P2 run 2"]; v3 [label="P2 run 3"];
+ chk [label="parse + validate\n(retry once on bad JSON)", fillcolor="#E8E8E8"];
+ maj [label="majority vote\nper theme + overall\n(tie -> mixed)", fillcolor="#E8E8E8"];
+ f [label="final label +\nagreement score", fillcolor="#DDF5DD"];
+ r->v1->chk; r->v2->chk; r->v3->chk; chk->maj->f; }

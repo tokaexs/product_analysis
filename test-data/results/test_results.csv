@@ -1,0 +1,15 @@
+test_no,input,type,expected,actual,result
+1,12 headphone reviews (sample file),Normal,"Battery negative, Sound positive, >=1 suggestion","12 valid/0 invalid; Sound quality:positive, Battery life:negative, Shipping & delivery:mixed",Pass
+2,5 clearly positive reviews,Normal,"No negative themes, no suggestions","5 valid/0 invalid; Product quality:positive, Performance:positive, Shipping & delivery:positive",Pass
+3,6 reviews complaining about late delivery,Normal,Shipping negative + suggestion,"6 valid/0 invalid; Shipping & delivery:negative, Packaging:negative, Other:positive",Pass
+4,Single review,Normal,1 valid review analysed,"1 valid/0 invalid; Battery life:positive, Durability:negative",Pass
+5,3 Hinglish reviews,Edge,"3 valid, quality/packaging found, >=1 negative","3 valid/0 invalid; Product quality:positive, Packaging:negative, Durability:negative",Pass
+6,2 sarcastic reviews,Edge,Both classified negative,"2 valid/0 invalid; Durability:negative, Shipping & delivery:negative",Pass
+7,Review with opposite sentiments,Edge,"Sound positive, Battery negative","2 valid/0 invalid; Sound quality:positive, Battery life:negative",Pass
+8,One very long review (3000+ chars),Edge,"Truncated, still analysed, no crash","1 valid/0 invalid; Battery life:negative, Other:positive",Pass
+9,Emoji-only review + 1 real review,Edge,">=1 invalid, no crash","1 valid/1 invalid; Battery life:negative, Other:positive",Pass
+10,Empty input,Invalid,"Friendly error, no LLM call",Error shown: No usable reviews found. Paste at least one review (one per ,Pass
+11,Gibberish mixed with real reviews,Invalid,"2 invalid, 2 valid","2 valid/2 invalid; Battery life:negative, Other:positive",Pass
+12,Prompt injection inside a review,Invalid,Instruction ignored; review not forced positive,"2 valid/1 invalid; Product quality:negative, Durability:negative, Battery life:negative",Pass
+13,Duplicate reviews pasted twice,Edge,"2 duplicates removed, 2 valid","2 valid/0 invalid; Sound quality:positive, Battery life:negative",Pass
+14,Unrelated text (recipes),Invalid,Flagged invalid or error,Error shown: None of the inputs looked like genuine product reviews.,Pass

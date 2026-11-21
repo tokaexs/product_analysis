@@ -1,0 +1,9 @@
+digraph G { rankdir=LR; node [shape=box, style="rounded,filled", fillcolor="#EEF3FF", fontname="Helvetica"]; edge [fontname="Helvetica", fontsize=10];
+ in [label="Raw reviews\n(paste / CSV)", fillcolor="#FFF3D6"];
+ clean [label="Cleaning (code)\ntrim, dedupe, cap", fillcolor="#E8E8E8"];
+ p1 [label="P1 Theme discovery\n1 call, temp 0.2"];
+ p2 [label="P2 Review classifier\n3 votes per review, temp 0.7"];
+ vote [label="Majority vote +\naggregation (code)", fillcolor="#E8E8E8"];
+ p3 [label="P3 Improvement advisor\n1 call, temp 0.3"];
+ out [label="Report: themes,\nsentiment, actions", fillcolor="#DDF5DD"];
+ in->clean->p1; p1->p2 [label="theme list"]; clean->p2 [label="each review"]; p2->vote [label="JSON x3"]; vote->p3 [label="theme stats\n+ quotes"]; p3->out; vote->out; }

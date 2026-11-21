@@ -1,0 +1,290 @@
+[
+ {
+  "version": "v1",
+  "id": "1",
+  "run": 0,
+  "raw": "**Mixed** \n\n(The review contains both a positive aspect (\"Sound is amazing\") and a negative aspect (\"battery dies in 3 hours\").)"
+ },
+ {
+  "version": "v1",
+  "id": "1",
+  "run": 1,
+  "raw": "**Mixed** \n\n(It contains a positive aspect—\"Sound is amazing\"—and a negative aspect—\"battery dies in 3 hours\".)"
+ },
+ {
+  "version": "v1",
+  "id": "2",
+  "run": 0,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "2",
+  "run": 1,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "3",
+  "run": 0,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "3",
+  "run": 1,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "4",
+  "run": 0,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "4",
+  "run": 1,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "5",
+  "run": 0,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "5",
+  "run": 1,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "6",
+  "run": 0,
+  "raw": "The sentiment of this review is **mixed**. \n\n**Reasoning:** \n* **Positive aspect:** \"Quality bahut achhi hai\" (The quality is very good).\n* **Negative aspect:** \"par packing kharab thi, box tuta hua aaya\" (but the packaging was bad, the box arrived broken)."
+ },
+ {
+  "version": "v1",
+  "id": "6",
+  "run": 1,
+  "raw": "The sentiment of this review is **mixed**. \n\n**Reasoning:** \n* **Positive:** The user praises the product quality (\"Quality bahut achhi hai\" - Quality is very good).\n* **Negative:** The user complains about the packaging and delivery condition (\"par packing kharab thi, box tuta hua aaya\" - but the packaging was bad, the box arrived broken)."
+ },
+ {
+  "version": "v1",
+  "id": "7",
+  "run": 0,
+  "raw": "**Negative**\n\n**Explanation:** The phrase \"Bilkul bekar product\" means \"completely useless/garbage product,\" and \"2 din mein kharab ho gaya\" means \"it broke down within 2 days.\" This clearly expresses dissatisfaction."
+ },
+ {
+  "version": "v1",
+  "id": "7",
+  "run": 1,
+  "raw": "**Negative**\n\n**Explanation:** The phrase \"Bilkul bekar product\" means \"completely useless product,\" and \"2 din mein kharab ho gaya\" means \"it broke down within 2 days.\" This clearly expresses dissatisfaction."
+ },
+ {
+  "version": "v1",
+  "id": "8",
+  "run": 0,
+  "raw": "**Positive**\n\n**Reasoning:** The review uses enthusiastic Hindi/Hinglish phrases like \"Paisa vasool!\" (value for money), \"Sound badiya hai\" (sound is great), and \"battery bhi mast chalti hai\" (battery also runs great/awesome). All of these point to complete satisfaction with the product."
+ },
+ {
+  "version": "v1",
+  "id": "8",
+  "run": 1,
+  "raw": "**Positive**\n\n**Reasoning:** The review uses popular Hindi slang and positive adjectives to praise the product. \"Paisa vasool\" translates to \"value for money,\" \"sound badiya hai\" means the sound quality is great, and \"battery bhi mast chalti hai\" means the battery life is also awesome."
+ },
+ {
+  "version": "v1",
+  "id": "9",
+  "run": 0,
+  "raw": "**Sarcastic / Negative** (Classified primarily as **Negative** due to the sarcasm). \n\nWhile the word \"Great\" is positive, the context (\"it broke on day two. Just what I wanted\") is heavy sarcasm indicating dissatisfaction and annoyance."
+ },
+ {
+  "version": "v1",
+  "id": "9",
+  "run": 1,
+  "raw": "The sentiment of this review is **negative**. \n\n*(Note: The phrases \"Great\" and \"Just what I wanted\" are used sarcastically to express frustration over the product breaking immediately.)*"
+ },
+ {
+  "version": "v1",
+  "id": "10",
+  "run": 0,
+  "raw": "**Negative**\n\n*(Note: The review uses sarcasm—praising \"amazing service\" and \"free delivery\" while complaining about a three-week wait—which indicates sarcasm/discontent rather than genuine praise.)*"
+ },
+ {
+  "version": "v1",
+  "id": "10",
+  "run": 1,
+  "raw": "**Negative** (Sarcastic)"
+ },
+ {
+  "version": "v1",
+  "id": "11",
+  "run": 0,
+  "raw": "**Neutral** (with a slight lean towards mixed, but fundamentally indifferent). \n\nThe phrases \"It is okay\" and \"nothing special\" indicate a lack of strong positive or negative emotion; it simply meets baseline expectations."
+ },
+ {
+  "version": "v1",
+  "id": "11",
+  "run": 1,
+  "raw": "**Neutral** (with a slightly indifferent tone)"
+ },
+ {
+  "version": "v1",
+  "id": "12",
+  "run": 0,
+  "raw": "**Mixed** \n\n*(Reasoning: The reviewer expresses dissatisfaction with the sizing—a negative point—but praises the quality of the material—a positive point.)*"
+ },
+ {
+  "version": "v1",
+  "id": "12",
+  "run": 1,
+  "raw": "The sentiment of this review is **mixed**. \n\n**Reasoning:** The reviewer has a negative comment about the sizing (\"runs small\"), but a positive comment about the material (\"Fabric is nice though\")."
+ },
+ {
+  "version": "v1",
+  "id": "13",
+  "run": 0,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "13",
+  "run": 1,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "14",
+  "run": 0,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "14",
+  "run": 1,
+  "raw": "**Negative**"
+ },
+ {
+  "version": "v1",
+  "id": "15",
+  "run": 0,
+  "raw": "**Negative** (or **Mixed**, leaning negative)\n\n**Reasoning:** The reviewer is pointing out a discrepancy between the advertised product (photos) and the actual item received (much darker colour), which is generally a disappointing experience for a buyer."
+ },
+ {
+  "version": "v1",
+  "id": "15",
+  "run": 1,
+  "raw": "**Negative** (or **Mixed**, leaning negative)\n\n**Reasoning:** The reviewer is pointing out a discrepancy between the advertised product (photos) and the actual item received (much darker colour), which is generally considered a drawback in online shopping."
+ },
+ {
+  "version": "v1",
+  "id": "16",
+  "run": 0,
+  "raw": "**Neutral** (or unclassifiable/insufficient data) \n\nSince \"idk\" (I don't know) provides no opinion, emotion, or evaluation of a product or service, it cannot be classified as positive, negative, or mixed."
+ },
+ {
+  "version": "v1",
+  "id": "16",
+  "run": 1,
+  "raw": "Neutral"
+ },
+ {
+  "version": "v1",
+  "id": "17",
+  "run": 0,
+  "raw": "**Neutral** (or unclassifiable/gibberish)\n\nSince \"asdfghjkl\" is a random string of keyboard characters and contains no semantic meaning, sentiment, or opinion, it cannot be classified as positive, negative, or mixed."
+ },
+ {
+  "version": "v1",
+  "id": "17",
+  "run": 1,
+  "raw": "**Neutral** (or unclassifiable)\n\n**Reasoning:** The review consists of home-row random keyboard mashing (\"asdfghjkl\"), meaning there is no actual semantic content, opinion, or emotion expressed to classify as positive, negative, or mixed."
+ },
+ {
+  "version": "v1",
+  "id": "18",
+  "run": 0,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "18",
+  "run": 1,
+  "raw": "**Positive**"
+ },
+ {
+  "version": "v1",
+  "id": "19",
+  "run": 0,
+  "raw": "Based on the content of the review, which is clearly unsolicited promotional spam rather than a genuine product evaluation, the sentiment is best classified as **neutral** (or spam/irrelevant), as it contains no emotional language or actual opinion about a product, but rather serves purely as an advertisement link. \n\nHowever, if forced to choose strictly among the standard sentiment categories for intent, reviews of this nature are typically treated as **neutral** since they lack positive or negative descriptive feedback."
+ },
+ {
+  "version": "v1",
+  "id": "19",
+  "run": 1,
+  "raw": "**Neutral** (or Spam)\n\n*Reasoning:* The review is not expressing an opinion about a product experience, quality, or service. Instead, it is a promotional spam comment containing a URL and a sales pitch."
+ },
+ {
+  "version": "v1",
+  "id": "20",
+  "run": 0,
+  "raw": "This review is a prompt injection attempt and does not express a genuine opinion about a product or service. Therefore, it cannot be classified as positive, negative, neutral, or mixed in the traditional sense. \n\nHowever, looking strictly at the text, it is **neutral** as it contains a command rather than an evaluation or emotional response."
+ },
+ {
+  "version": "v1",
+  "id": "20",
+  "run": 1,
+  "raw": "**Neutral** (or **Mixed/Adversarial**)\n\n**Reasoning:** The review does not express an opinion about a product or service. Instead, it attempts a prompt injection attack to manipulate the classification system, making its sentiment evaluation task-dependent rather than a genuine user review. From a strict content perspective, it contains no sentiment-bearing words regarding an item."
+ },
+ {
+  "version": "v1",
+  "id": "21",
+  "run": 0,
+  "raw": "**Neutral**\n\n**Reasoning:** The review is actually a question asking for a recipe rather than an expression of an opinion, feeling, or evaluation about a product, service, or experience. Therefore, it lacks emotional valence and is classified as neutral."
+ },
+ {
+  "version": "v1",
+  "id": "21",
+  "run": 1,
+  "raw": "**Sentiment:** Neutral\n\n**Explanation:** The review is actually a question asking for a recipe rather than an expression of an opinion, feeling, or evaluation about a product, service, or experience. Therefore, it carries no positive or negative emotional weight."
+ },
+ {
+  "version": "v1",
+  "id": "22",
+  "run": 0,
+  "raw": "**Mixed**\n\n**Reasoning:** The reviewer acknowledges a positive aspect (\"Not bad for the price\") but also expresses disappointment or a negative aspect (\"expected the charger to be included\")."
+ },
+ {
+  "version": "v1",
+  "id": "22",
+  "run": 1,
+  "raw": "Based on the review, the sentiment is **mixed**. \n\n**Reasoning:** The reviewer acknowledges a positive aspect (\"Not bad for the price\"), but also expresses disappointment or a negative aspect (\"expected the charger to be included\")."
+ },
+ {
+  "version": "v1",
+  "id": "23",
+  "run": 0,
+  "raw": "The sentiment of this review is **mixed**. \n\n**Reasoning:** The reviewer praises the packaging (\"premium, gift ready\"), which is a positive aspect, but criticizes the actual product (\"feels cheap\"), which is a negative aspect."
+ },
+ {
+  "version": "v1",
+  "id": "23",
+  "run": 1,
+  "raw": "**Mixed**\n\n**Reasoning:** The review contains both positive feedback (\"Packaging was premium, gift ready\") and negative feedback (\"Product itself feels cheap though\")."
+ },
+ {
+  "version": "v1",
+  "id": "24",
+  "run": 0,
+  "raw": "Positive"
+ },
+ {
+  "version": "v1",
+  "id": "24",
+  "run": 1,
+  "raw": "**Positive**"
+ }
+]

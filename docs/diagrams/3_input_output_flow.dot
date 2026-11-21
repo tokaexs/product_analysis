@@ -1,0 +1,8 @@
+digraph G { rankdir=LR; node [shape=record, style=filled, fillcolor="#EEF3FF", fontname="Helvetica"];
+ i [label="{INPUT|reviews (text lines or CSV)|optional: what you sell}", fillcolor="#FFF3D6"];
+ s1 [label="{P1 out|themes[] : name + definition}"];
+ s2 [label="{P2 out (per review)|is_valid_review|language|aspects[] : theme, sentiment, evidence|overall_sentiment}"];
+ s3 [label="{Aggregated (code)|mentions, +/-/mixed counts|complaint_share|agreement|top quotes}"];
+ s4 [label="{P3 out|summary|suggestions[] : theme, priority, action, why, evidence}"];
+ o [label="{OUTPUT|dashboard + JSON report}", fillcolor="#DDF5DD"];
+ i->s1->s2->s3->s4->o; }

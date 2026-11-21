@@ -1,0 +1,4 @@
+### USER
+Classify the sentiment of this review as positive, negative, neutral or mixed.
+
+Review: {review}

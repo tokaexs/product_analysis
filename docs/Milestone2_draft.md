@@ -9,8 +9,8 @@
 - Faculty name: Ankit Vijay Bansal
 - Members (enrollment no. - name):S24CSEU0698,S24CSEU0799,S24CSEU1712,S24CSEU0200 S24CSEU0438 
 - Prototype link: TODO
-- Repository link: TODO
-- Reel link: TODO (length in seconds: TODO)
+- Repository link: https://github.com/tokaexs/product_analysis.git
+- Reel link: https://youtu.be/CIMnPZJWv48?si=pCeSepBjNE2meH_L (length in seconds: TODO)
 - Counts: final prompts = 3 | test inputs = 14 | prompt versions = 4
 
 ## 2. Prompt and solution design

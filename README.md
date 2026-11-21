@@ -22,4 +22,4 @@ python scripts/run_tests.py                                      # 14-row test t
 pytest tests                                                     # unit tests (no API key needed)
 ```
 ## Team and links
-Team: Tech_deck · Prototype: _TODO link_ · Reel: _TODO link_
+Team: Tech_deck · Prototype: _TODO link_ · Reel: https://youtu.be/CIMnPZJWv48?si=pCeSepBjNE2meH_L
